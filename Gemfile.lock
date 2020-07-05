@@ -92,6 +92,10 @@ GEM
       claide (>= 1.0.2, < 2.0)
       colored2 (~> 3.1)
       nanaimo (~> 0.2.6)
+    xcoed (0.0.1)
+      activesupport (< 5)
+      hooks (~> 0.4.1)
+      xcodeproj (>= 1.10.0, < 2.0.0)
 
 PLATFORMS
   ruby
@@ -99,6 +103,7 @@ PLATFORMS
 DEPENDENCIES
   cocoapods
   xcake (>= 0.9.1)
+  xcoed
 
 BUNDLED WITH
    2.1.2

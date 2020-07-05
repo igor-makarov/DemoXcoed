@@ -1,3 +1,4 @@
+require 'xcoed'
 require 'yaml'
 
 project.name = 'DemoXcoed'
@@ -38,6 +39,11 @@ application_for :ios, '10.0' do |target|
   end
 end
 
+project.before_save do |project|
+  Xcoed::integrate_package_swift! project
+end
+
 project.after_save do
+  system 'pod install'
   system "rm -rf \"#{project.name}.xcodeproj/xcshareddata/xcschemes\""
 end
