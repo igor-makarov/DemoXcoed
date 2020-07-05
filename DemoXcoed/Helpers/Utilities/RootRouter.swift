@@ -5,6 +5,7 @@
 //  Copyright © Igor. All rights reserved.
 //
 
+import SnapKit
 import UIKit
 
 class RootRouter {
@@ -27,6 +28,13 @@ class RootRouter {
     func loadMainAppStructure() {
         // Customize your app structure here
         let controller = UIViewController()
+        let inner = UIView()
+        inner.backgroundColor = .green
+        controller.view.addSubview(inner)
+        inner.snp.makeConstraints { make in
+            make.width.height.equalTo(50)
+            make.center.equalTo(controller.view)
+        }
         controller.view.backgroundColor = UIColor.red
         setRootViewController(controller: controller, animatedWithOptions: nil)
     }
