@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  DemoXcoed
+
+  Copyright © Igor. All rights reserved.
+*/
+
+// MARK: Common
+
+"common.ok" = "Ok";
+"common.cancel" = "Cancel";
+"common.error" = "Error";
