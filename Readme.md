@@ -10,7 +10,7 @@ Supports: iOS 10.0 and above
 
 ## Demonstration:
 
-**Currently, only packages with public git URLs and local packages are supported.**
+**Currently, only packages with public git URLs and local packages are supported.**  
 **Currently, only packages with range version requirements are supported.**
 
 * [`Package.swift`](Package.swift)
