@@ -3,7 +3,7 @@ require 'yaml'
 
 project.name = 'DemoXcoed'
 
-application_for :ios, '10.0' do |target|
+application_for :ios, '13.0' do |target|
   target.name = 'DemoXcoed'
   target.all_configurations.each do |config|
     config.product_bundle_identifier = 'com.igor.demoxcoed'
