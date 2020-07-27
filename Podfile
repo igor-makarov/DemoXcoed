@@ -6,10 +6,9 @@ use_frameworks!
 inhibit_all_warnings!
 
 target 'DemoXcoed' do
-  platform :ios, '10.0'
+  platform :ios, '13.0'
 
   pod 'R.swift', '5.0.0'
-  pod 'SwiftLint', '0.29.2'
 
   target 'DemoXcoedTests' do
     inherit! :search_paths
