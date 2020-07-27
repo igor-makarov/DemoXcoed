@@ -2,12 +2,30 @@
   "object": {
     "pins": [
       {
+        "package": "ObjectMapper",
+        "repositoryURL": "https://github.com/tristanhimmelman/ObjectMapper",
+        "state": {
+          "branch": null,
+          "revision": "a593b4d647a970b3d184d046f8f52b945083ccf9",
+          "version": null
+        }
+      },
+      {
         "package": "SnapKit",
         "repositoryURL": "https://github.com/SnapKit/SnapKit",
         "state": {
           "branch": null,
           "revision": "d458564516e5676af9c70b4f4b2a9178294f1bc6",
           "version": "5.0.1"
+        }
+      },
+      {
+        "package": "NavigationStack",
+        "repositoryURL": "https://github.com/biobeats/swiftui-navigation-stack.git",
+        "state": {
+          "branch": "master",
+          "revision": "fb19f34bdf36dd373d13d3397dc487d6c4f887cf",
+          "version": null
         }
       },
       {
