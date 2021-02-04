@@ -3,6 +3,7 @@ name: Build
 jobs:
   build:
     strategy:
+      fail-fast: false
       matrix:
         xcode-version: [11.5, 12.0, 12.3]
     runs-on: macos-latest
