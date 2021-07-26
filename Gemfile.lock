@@ -7,7 +7,7 @@ GEM
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     algoliasearch (1.27.5)
       httpclient (~> 2.8, >= 2.8.3)
@@ -95,7 +95,7 @@ GEM
       claide (>= 1.0.2, < 2.0)
       colored2 (~> 3.1)
       nanaimo (~> 0.3.0)
-    xcoed (0.0.6)
+    xcoed (1.0.1)
       activesupport (< 6)
       hooks (~> 0.4.1)
       xcodeproj (>= 1.10.0, < 2.0.0)
@@ -106,7 +106,7 @@ PLATFORMS
 DEPENDENCIES
   cocoapods
   xcake (>= 0.9.1)
-  xcoed
+  xcoed (~> 1)
 
 BUNDLED WITH
-   2.1.2
+   2.2.3
